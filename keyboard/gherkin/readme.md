@@ -27,4 +27,7 @@ Needed if you want LEDs
     1	100ohm resistor
     1	100Kilo ohm resistor
 
+
+![Default Laybout](gherkin-layout.png)
+
 [How to order your own PCBs](http://www.40percent.club/2017/03/ordering-pcb.html)
