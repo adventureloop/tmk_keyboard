@@ -50,7 +50,7 @@ TARGET_DIR = .
 # programming directive
 MCU = atmega32u4
 OPT_DEFS += -DBOOTLOADER_SIZE=512
-PROGRAM_CMD = avrdude -p $(MCU) -P /dev/ttyACM0 -c avr109 -U flash:w:$(TARGET).hex
+PROGRAM_CMD = avrdude -p $(MCU) -P /dev/tty.usbmodem1411 -c avr109 -U flash:w:$(TARGET).hex
 
 # project specific files
 SRC =   matrix.c \
