@@ -2,7 +2,6 @@
 #include "action_code.h"
 #include "actionmap_common.h"
 
-
 /*
  * Actions
  */
@@ -12,12 +11,11 @@
 #define AC_TL2    ACTION_LAYER_TAP_KEY(2, KC_BSPACE)
 #define AC_TL3    ACTION_LAYER_TAP_KEY(3, KC_C)
 #define AC_TL4    ACTION_LAYER_TAP_KEY(4, KC_V)
-#define AC_TL5    ACTION_LAYER_TAP_KEY(5, KC_B)
+#define AC_TL5    ACTION_LAYER_TAP_KEY(5, KC_N)
 #define AC_TM1    ACTION_MODS_TAP_KEY(MOD_RSFT, KC_ENT)
 #define AC_TM2    ACTION_MODS_TAP_KEY(MOD_LCTL, KC_Z)
-#define AC_TM3    ACTION_MODS_TAP_KEY(MOD_LALT, KC_X)
-#define AC_TM4    ACTION_MODS_TAP_KEY(MOD_RALT, KC_N)
-#define AC_TM5    ACTION_MODS_TAP_KEY(MOD_RCTL, KC_M)
+#define AC_TM3    ACTION_MODS_TAP_KEY(MOD_LALT, KC_M)
+#define AC_TM4    ACTION_MODS_TAP_KEY(MOD_LGUI, KC_B)
 #define AC_S01    ACTION_MODS_KEY(MOD_LSFT, KC_1)
 #define AC_S02    ACTION_MODS_KEY(MOD_LSFT, KC_2)
 #define AC_S03    ACTION_MODS_KEY(MOD_LSFT, KC_3)
@@ -43,7 +41,7 @@ const action_t PROGMEM actionmaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = ACTIONMAP( \
     Q,      W,      E,      R,      T,      Y,      U,      I,      O,      P, \
     A,      S,      D,      F,      G,      H,      J,      K,      L,      ESC, \
-    TM2,    TM3,    TL3,    TL4,    TL2,    TL1,    TL5,    TM4,    TM5,    TM1),
+    TM2,    X,      TL3,    TL4,    TL1,    TL2,    TM4,    TL5,    TM3,    TM1),
     [1] = ACTIONMAP( \
     1,      2,      3,      4,      5,      6,      7,      8,      9,      0, \
     F1,     F2,     F3,     F4,     F5,     F6,     F7,     F8,     F9,     F10, \
